@@ -1,0 +1,21 @@
+# WRITE A PROGRAM TO PRINT SEQUENCE AND ALSO FIND IT SUM OF EVEN NUMBER WITHOUT USING AN EXPLICIT LOOP FOR SUM CALCULATION. 
+# BY USING WHILE LOOP.
+a=eval(input("Enter any First no.:"))
+d=eval(input("Enter a common difference:"))
+b=eval(input("Enter any last no.:"))
+add=0
+sum=0
+i=-1
+list=[]
+while add<=b-d:
+    z=a+d
+    add=i*d+z
+    if add%2==0:
+        sum=sum+add
+    i=i+1
+    list.append(add)
+print("Sequence=",list)
+print("sum of even no.=",sum)
+
+
+
